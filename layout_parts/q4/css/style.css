@@ -9,12 +9,12 @@
 
 .table_bar {
   margin-top: 20px;
-}
-
-.table_bar:first-child {
   display: table;
   text-align: center;
   width: 100%;
+}
+
+.table_bar:first-child {
   margin-top: 0;
 }
 
@@ -37,11 +37,6 @@
   width: 100px;
 }
 
-.table_bar:last-child {
-  display: table;
-  text-align: center;
-  width: 100%;
-}
 
 .table_yellow {
   background-color: #e5d82e;
