@@ -1,5 +1,38 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.content_wrap {
+  margin: 0 auto;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+  table-layout: fixed;
+}
 
+table th, table td{
+  border: solid #dedede 1px;
+  padding: 10px;
+  text-align: center;
+}
+
+table th,td:first-child {
+  background-color: #2244aa;
+  color: white;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+tr:last-child{
+  border-top: dashed #000 2px;
+}
+
+tr:nth-child(2n+1) {
+  background-color: #ecf1f2;
+}
+
+td:not(:first-child) {
+  font-size: 16px;
+  line-height: 22px;
+}
 /* 回答はここに書いてね */
