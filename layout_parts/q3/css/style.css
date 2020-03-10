@@ -10,24 +10,27 @@
   table-layout: fixed;
 }
 
-table th, table td{
+table th,
+table td {
   border: solid #dedede 1px;
   padding: 10px;
   text-align: center;
 }
 
-table th,td:first-child {
+.table_header th,
+.table_body td:first-child,
+.table_summary th {
   background-color: #2244aa;
   color: white;
   font-size: 18px;
   line-height: 26px;
 }
 
-tr:last-child{
+.table_body tr:last-child{
   border-top: dashed #000 2px;
 }
 
-tr:nth-child(2n+1) {
+tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
