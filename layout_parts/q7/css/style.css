@@ -29,7 +29,6 @@
 
 .q7_table {
   display: table;
-  border-collapse: separate;
 }
 
 .box_in_table {
@@ -51,8 +50,6 @@
   display: inline-block;
   vertical-align: middle;
   margin-left: 50px;
-  box-sizing: border-box;
-  font-size: 1rem;
 }
 
 .box_text:first-child {
